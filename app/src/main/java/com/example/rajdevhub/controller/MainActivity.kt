@@ -1,11 +1,11 @@
-package com.example.test
+package com.example.rajdevhub.controller
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.rajdevhub.R
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     val foodList = arrayListOf("Bread", "Rice", "Shop")
     override fun onCreate(savedInstanceState: Bundle?) {

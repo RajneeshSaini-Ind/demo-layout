@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".controller.MainActivity">
 
     <TextView
         android:id="@+id/txtFoodName"
@@ -17,7 +17,7 @@
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:text="Chainees"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
@@ -43,7 +43,7 @@
         android:background="@color/colorAccent"
         android:text="Decide Food"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +75,7 @@
         android:background="@color/colorAccent"
         android:text="Add Food"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/decideBTN"
         app:layout_constraintEnd_toEndOf="parent"
