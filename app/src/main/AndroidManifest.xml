@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.rajdevhub.controller.BaseActivity"></activity>
-        <activity android:name="com.example.rajdevhub.controller.WelcomeActivity">
+
+        <activity android:name=".controller.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.rajdevhub.controller.LayoutActivity" />
-        <activity android:name="com.example.rajdevhub.controller.MainActivity" />
-        <activity android:name="com.example.rajdevhub.controller.ListViewActivity" />
-        <activity android:name="com.example.rajdevhub.controller.RecyclerViewActivity" />
+        <activity android:name=".controller.ProductActivity" />
+        <activity android:name=".controller.BaseActivity" />
+        <activity android:name=".controller.LayoutActivity" />
+        <activity android:name=".controller.MainActivity" />
+        <activity android:name=".controller.ListViewActivity" />
+        <activity android:name=".controller.RecyclerViewActivity" />
+        <activity android:name=".controller.ProductDetailsActivity"></activity>
     </application>
 
 </manifest>

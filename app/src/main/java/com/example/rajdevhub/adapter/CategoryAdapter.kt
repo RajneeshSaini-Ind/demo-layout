@@ -1,4 +1,4 @@
-package com.example.adapter
+package com.example.rajdevhub.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.rajdevhub.R
 import com.example.rajdevhub.model.Category
-import java.util.zip.Inflater
 
 class CategoryAdapter(val context: Context, val categories: List<Category>): BaseAdapter() {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {

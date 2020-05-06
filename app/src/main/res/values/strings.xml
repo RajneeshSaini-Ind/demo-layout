@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="product_description">In the ProductDetailActivity onCreate() method, retrieve from the intent the extra that is of type Product. Get the resource id from the image name like we have done several times, and set the image as well as product name and price.</string>
 </resources>

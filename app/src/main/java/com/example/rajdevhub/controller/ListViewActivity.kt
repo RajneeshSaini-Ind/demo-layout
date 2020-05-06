@@ -1,12 +1,9 @@
 package com.example.rajdevhub.controller
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.Toast
-import com.example.adapter.CategoryAdapter
+import com.example.rajdevhub.adapter.CategoryAdapter
 import com.example.jonnyb.coderswag.Services.DataService
 import com.example.rajdevhub.R
-import com.example.rajdevhub.model.Category
 import kotlinx.android.synthetic.main.activity_listview.*
 
 class ListViewActivity : BaseActivity() {
