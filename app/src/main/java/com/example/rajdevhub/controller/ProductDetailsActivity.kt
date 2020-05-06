@@ -23,6 +23,6 @@ class ProductDetailsActivity : AppCompatActivity() {
     }
 
     fun addToCart(view: View) {
-        Toast.makeText(this, "Item saved in your Cart!!", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "This item saved in your Cart!!", Toast.LENGTH_LONG).show()
     }
 }
